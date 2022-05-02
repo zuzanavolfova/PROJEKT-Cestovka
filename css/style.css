@@ -74,6 +74,12 @@ header .menu__item:hover {
     gap: 20px;
   }
 }
+@media screen and (min-width: 960px) {
+  .tour {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 180px 180px;
+  }
+}
 .tour__item {
   color: white;
   margin: 20px auto;
@@ -137,15 +143,33 @@ header .menu__item:hover {
     grid-column: 1/span 2;
   }
 }
+@media screen and (min-width: 960px) {
+  .tour__first {
+    grid-column: 1/span 2;
+    grid-row: 1/span 2;
+  }
+}
 .tour__second {
   background-image: url(/images/jezero2.png);
   background-repeat: no-repeat;
   grid-column: 1/2;
 }
+@media screen and (min-width: 960px) {
+  .tour__second {
+    grid-column: 3/span 1;
+    grid-row: 1/span 1;
+  }
+}
 .tour__third {
   background-image: url(/images/nakole.png);
   background-repeat: no-repeat;
   grid-column: 2/3;
+}
+@media screen and (min-width: 960px) {
+  .tour__third {
+    grid-column: 3/span 1;
+    grid-row: 2/span 1;
+  }
 }
 
 @media screen and (min-width: 768px) {
