@@ -11,16 +11,6 @@ body {
   margin: 0 20px;
 }
 
-h1 {
-  font-size: 28px;
-  font-family: "Montserrat", sans-serif;
-}
-
-h2 {
-  font-size: 20px;
-  font-family: "Montserrat", sans-serif;
-}
-
 .logo {
   width: 235px;
   height: 30px;
@@ -66,8 +56,19 @@ h2 {
   padding: 10px;
   background-color: #F03000;
 }
+.tour h1 {
+  font-size: 28px;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 16px;
+}
+.tour h2 {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
 .tour__text p {
   font-size: 16px;
+  margin: 0;
 }
 .tour__first {
   background-image: url(/images/palmy.png);

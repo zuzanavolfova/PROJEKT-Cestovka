@@ -13,15 +13,7 @@ body {
     font-family: $primary-font;
     margin: 0 20px;
 }
-h1 {
-    font-size: 28px;
-    font-family: $secondary-font;
-}
 
-h2 {
-    font-size: 20px;
-    font-family: $secondary-font;
-}
 
 .logo {
     width: 235px;
@@ -68,10 +60,21 @@ h2 {
         padding: 10px;
         background-color: $color-primary;
     }
+    h1 {
+        font-size: 28px;
+        font-family: $secondary-font;
+        margin-bottom: 16px;
+    }
 
+    h2 {
+        font-size: 20px;
+        font-family: $secondary-font;
+        margin: 0;
+    }
     &__text {
         p {
            font-size: 16px;
+           margin: 0;
         }
     }
 
