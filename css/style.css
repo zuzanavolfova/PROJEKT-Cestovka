@@ -25,6 +25,11 @@ h4 {
   margin-bottom: 0;
   margin-top: 40px;
 }
+@media screen and (min-width: 960px) {
+  h4 {
+    margin-bottom: 20px;
+  }
+}
 
 header .logo {
   width: 235px;
@@ -180,6 +185,11 @@ header .menu__item:hover {
     margin: 40px auto;
   }
 }
+@media screen and (min-width: 960px) {
+  .services {
+    display: flex;
+  }
+}
 .services__item {
   background-color: #F0F0F0;
   display: flex;
@@ -244,6 +254,12 @@ header .menu__item:hover {
     grid-column: 1/span 2;
   }
 }
+@media screen and (min-width: 960px) {
+  .last-minute__first {
+    grid-column: 2/span 2;
+    grid-row: 1/span 2;
+  }
+}
 .last-minute__second {
   background-image: url(/images/podkova.png);
   background-repeat: no-repeat;
@@ -253,6 +269,12 @@ header .menu__item:hover {
     grid-column: 1/span 1;
   }
 }
+@media screen and (min-width: 960px) {
+  .last-minute__second {
+    grid-column: 1/span 1;
+    grid-row: 1/span 1;
+  }
+}
 .last-minute__third {
   background-image: url(/images/zatoka.png);
   background-repeat: no-repeat;
@@ -260,6 +282,12 @@ header .menu__item:hover {
 @media screen and (min-width: 768px) {
   .last-minute__third {
     grid-column: 2/span 1;
+  }
+}
+@media screen and (min-width: 960px) {
+  .last-minute__third {
+    grid-column: 1/span 1;
+    grid-row: 2/span 1;
   }
 }
 
