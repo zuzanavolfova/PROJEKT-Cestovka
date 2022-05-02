@@ -15,6 +15,8 @@ h4 {
   font-size: 24px;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
+  margin-bottom: 0;
+  margin-top: 40px;
 }
 
 .logo {
@@ -107,6 +109,9 @@ h4 {
   font-size: 18px;
   color: #F03000;
 }
+.services__text {
+  line-height: 22px;
+}
 
 .last-minute__first {
   background-image: url(/images/lodicka.png);
@@ -124,4 +129,29 @@ h4 {
 .novinky__item {
   background-color: #F0F0F0;
   padding: 20px;
+  margin: 20px 0;
+}
+.novinky__date {
+  margin: 0;
+  color: #888888;
+}
+.novinky h5 {
+  margin: 10px 0;
+  font-family: "Montserrat", sans-serif;
+  color: #F03000;
+  font-size: 16px;
+}
+.novinky p {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 19px;
+  margin: 0;
+}
+
+footer {
+  background-color: #444444;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin: 40px 0;
 }/*# sourceMappingURL=style.css.map */
