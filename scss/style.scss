@@ -2,8 +2,6 @@ html {box-sizing: border-box; }
 
 *, :after, :before {box-sizing: inherit;}
 
-
-
 $color-primary: #F03000;
 $primary-font: 'Open Sans', sans-serif;
 $secondary-font:'Montserrat', sans-serif;
@@ -19,12 +17,11 @@ body {
     }
 
     @media screen and (min-width: 960px){
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 40px;
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 40px;
     };
 }
-
 h4 {
     font-size: 24px;
     font-weight: 600;
@@ -50,7 +47,6 @@ header {
             margin: 0;
         };
     }
-
     .menu {
         display: block;
         padding:  20px 0;
@@ -67,28 +63,25 @@ header {
         }
     }
     @media screen and (min-width: 768px){
-    margin-bottom: 40px;
-       display: flex;
-    align-items: center;
-    justify-content: space-between;
+        margin-bottom: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
 }
     @media screen and (min-width: 960px){
-    
-    margin-bottom: 40px;
+        margin-bottom: 40px;
     };
 }
-
 .tour {
     @media screen and (min-width: 768px){
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
     }
     @media screen and (min-width: 960px){
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 180px 180px;
-    };
-    
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 180px 180px;
+    }; 
     &__item {
         color: white;
         margin: 20px auto;
@@ -98,14 +91,14 @@ header {
         flex-direction: column;
         justify-content: space-between;
         @media screen and (min-width: 768px){
-        margin: 0;
+            margin: 0;
         }
     }
     &__big-image {
         height: 240px;
         width: 100%;
         @media screen and (min-width: 768px){
-        height: 380px;
+            height: 380px;
         }
     }
     &__small-image {
@@ -126,7 +119,6 @@ header {
         font-family: $secondary-font;
         margin-bottom: 16px;
     }
-
     h2 {
         font-size: 20px;
         font-weight: 600;
@@ -139,7 +131,6 @@ header {
            margin: 0;
         }
     }
-
     &__first {
         background-image: url(/images/palmy.png);
         background-repeat: no-repeat;
@@ -151,7 +142,6 @@ header {
             grid-row: 1 / span 2;
         };
     }
-
     &__second {
         background-image: url(/images/jezero2.png);
         background-repeat: no-repeat;
@@ -161,7 +151,6 @@ header {
             grid-row: 1 / span 1;
         };
     }
-
     &__third {
         background-image: url(/images/nakole.png);
         background-repeat: no-repeat;
@@ -170,20 +159,17 @@ header {
             grid-column: 3 / span 1;
             grid-row: 2 / span 1;
         };
-    }
-    
+    } 
 }
-
 .services {
     @media screen and (min-width: 768px){
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    margin: 40px auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        margin: 40px auto;
     }
-
     @media screen and (min-width: 960px){
-    display: flex;
+        display: flex;
     };
     &__item {
         background-color: $background-color;
@@ -191,10 +177,10 @@ header {
         align-items: flex-start;
         margin: 10px 0;
         @media screen and (min-width: 768px){
-        display: block;
-        text-align: center;
-        margin: 0;
-        padding: 20px;
+            display: block;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
         }
     }
     &__icon {
@@ -205,7 +191,6 @@ header {
             margin:0;
         }
     }
-
     h3 {
         font-size: 18px;
         color: $color-primary;
@@ -213,7 +198,6 @@ header {
             margin: 20px;
         }
     }
-
     &__text {
         line-height: 22px;
         @media screen and (min-width: 768px){
@@ -222,23 +206,17 @@ header {
     }
     &__first {
         grid-column: 1/2;
-
     };
     &__second{
         grid-column: 2/3;
-
     };
     &__third{
         grid-column: 1/2;
-
     };
     &__fourth{
         grid-column: 2/3;
-
-
     };
 }
-
 .last-minute {
     &__first {
         background-image: url(/images/lodicka.png);
@@ -261,8 +239,6 @@ header {
             grid-column: 1 / span 1;
             grid-row: 1 / span 1;
         };
-
-
     }
     &__third {
         background-image: url(/images/zatoka.png);
@@ -274,16 +250,15 @@ header {
             grid-column: 1 / span 1;
             grid-row: 2 / span 1;
         };
+    }
 }
-}
-
 .novinky {
     &__item {
         background-color: $background-color;
         padding: 20px;
         margin: 20px 0;
         @media screen and (min-width: 960px){
-        margin: 0;
+            margin: 0;
         };
     }
     &__date {
@@ -315,9 +290,3 @@ footer {
     padding: 20px;
     margin: 40px 0;
 }
-
-
-
-@media screen and (min-width: 960px){
-    
-};
