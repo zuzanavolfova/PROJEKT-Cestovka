@@ -196,13 +196,28 @@ header .menu__item:hover {
   background-image: url(/images/lodicka.png);
   background-repeat: no-repeat;
 }
+@media screen and (min-width: 768px) {
+  .last-minute__first {
+    grid-column: 1/span 2;
+  }
+}
 .last-minute__second {
   background-image: url(/images/podkova.png);
   background-repeat: no-repeat;
 }
+@media screen and (min-width: 768px) {
+  .last-minute__second {
+    grid-column: 1/span 1;
+  }
+}
 .last-minute__third {
   background-image: url(/images/zatoka.png);
   background-repeat: no-repeat;
+}
+@media screen and (min-width: 768px) {
+  .last-minute__third {
+    grid-column: 2/span 3;
+  }
 }
 
 .novinky__item {

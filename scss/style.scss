@@ -199,14 +199,23 @@ header {
     &__first {
         background-image: url(/images/lodicka.png);
         background-repeat: no-repeat;
+        @media screen and (min-width: 768px){
+            grid-column: 1 / span 2;
+            }
     }
     &__second {
         background-image: url(/images/podkova.png);
         background-repeat: no-repeat;
+        @media screen and (min-width: 768px){
+            grid-column: 1 / span 1;
+            }
     }
     &__third {
         background-image: url(/images/zatoka.png);
         background-repeat: no-repeat;
+        @media screen and (min-width: 768px){
+            grid-column: 2 / span 3;
+            }
     }
 }
 
