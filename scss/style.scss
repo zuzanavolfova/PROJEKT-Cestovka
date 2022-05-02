@@ -8,6 +8,8 @@ $color-primary: #F03000;
 $primary-font: 'Open Sans', sans-serif;
 $secondary-font:'Montserrat', sans-serif;
 $background-color: #F0F0F0;
+$light-grey:#888888;
+$footer-color:#444444;
 
 body {
     font-family: $primary-font;
@@ -136,3 +138,9 @@ h4 {
     }
 }
 
+.novinky {
+    &__item {
+        background-color: $background-color;
+        padding: 20px;
+    }
+}

@@ -119,4 +119,9 @@ h4 {
 .last-minute__third {
   background-image: url(/images/zatoka.png);
   background-repeat: no-repeat;
+}
+
+.novinky__item {
+  background-color: #F0F0F0;
+  padding: 20px;
 }/*# sourceMappingURL=style.css.map */
