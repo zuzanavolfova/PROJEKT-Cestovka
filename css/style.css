@@ -10,6 +10,11 @@ body {
   font-family: "Open Sans", sans-serif;
   margin: 0 20px;
 }
+@media screen and (min-width: 768px) {
+  body {
+    margin: 40px 20px;
+  }
+}
 @media screen and (min-width: 960px) {
   body {
     max-width: 1400px;
@@ -25,12 +30,15 @@ h4 {
   margin-bottom: 0;
   margin-top: 40px;
 }
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 768px) {
   h4 {
     margin-bottom: 20px;
   }
 }
 
+header {
+  text-align: center;
+}
 header .logo {
   width: 235px;
   height: 30px;
@@ -38,7 +46,7 @@ header .logo {
   background-repeat: no-repeat;
   margin: 30px auto;
 }
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 768px) {
   header .logo {
     background-position: left;
     margin: 0;
@@ -46,7 +54,7 @@ header .logo {
 }
 header .menu {
   display: block;
-  padding: 20px;
+  padding: 20px 0;
 }
 header .menu__item {
   text-decoration: none;
@@ -61,13 +69,14 @@ header .menu__item:hover {
 }
 @media screen and (min-width: 768px) {
   header {
+    margin-bottom: 40px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
   }
 }
 @media screen and (min-width: 960px) {
   header {
-    justify-content: space-between;
     margin-bottom: 40px;
   }
 }
@@ -117,9 +126,7 @@ header .menu__item:hover {
     height: 180px;
   }
 }
-.tour__price {
-  flex-grow: 0;
-  flex-basis: auto;
+.tour__price span {
   padding: 10px;
   background-color: #F03000;
 }
