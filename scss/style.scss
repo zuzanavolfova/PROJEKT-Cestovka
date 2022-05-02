@@ -54,6 +54,12 @@ header {
 }
 
 .tour {
+    @media screen and (min-width: 768px){
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    }
+    
     &__item {
         color: white;
         margin: 20px auto;
@@ -62,12 +68,23 @@ header {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        @media screen and (min-width: 768px){
+        margin: 0;
+        }
     }
     &__big-image {
         height: 240px;
+        width: 100%;
+        @media screen and (min-width: 768px){
+        height: 380px;
+        }
     }
     &__small-image {
         height: 150px;
+        width: 100%;
+        @media screen and (min-width: 768px){
+            height: 180px;
+        }
     }
     &__price {
         flex-grow: 0;
@@ -98,40 +115,84 @@ header {
     &__first {
         background-image: url(/images/palmy.png);
         background-repeat: no-repeat;
+        @media screen and (min-width: 768px){
+        grid-column: 1 / span 2;
+        }
     }
 
     &__second {
         background-image: url(/images/jezero2.png);
         background-repeat: no-repeat;
+        grid-column: 1 / 2;
     }
 
     &__third {
         background-image: url(/images/nakole.png);
         background-repeat: no-repeat;
+        grid-column: 2 / 3;
     }
+    
 }
 
 .services {
+    @media screen and (min-width: 768px){
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 40px auto;
+    }
     &__item {
         background-color: $background-color;
         display: flex; 
         align-items: flex-start;
         margin: 10px 0;
+        @media screen and (min-width: 768px){
+        display: block;
+        text-align: center;
+        margin: 0;
+        padding: 20px;
+        }
     }
     &__icon {
         object-fit:scale-down;
         flex-basis: 20%;
         margin: 20px;
+        @media screen and (min-width: 768px){
+            margin:0;
+        }
     }
 
     h3 {
         font-size: 18px;
         color: $color-primary;
+        @media screen and (min-width: 768px){
+            margin: 20px;
+        }
     }
 
     &__text {
         line-height: 22px;
+        @media screen and (min-width: 768px){
+            margin: 0;
+        }
     }
+    &__first {
+        grid-column: 1/2;
+
+    };
+    &__second{
+        grid-column: 2/3;
+
+    };
+    &__third{
+        grid-column: 1/2;
+
+    };
+    &__fourth{
+        grid-column: 2/3;
+
+
+    };
 }
 
 .last-minute {
