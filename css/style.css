@@ -10,6 +10,13 @@ body {
   font-family: "Open Sans", sans-serif;
   margin: 0 20px;
 }
+@media screen and (min-width: 960px) {
+  body {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+}
 
 h4 {
   font-size: 24px;
@@ -25,6 +32,12 @@ header .logo {
   background-image: url(/images/logo.svg);
   background-repeat: no-repeat;
   margin: 30px auto;
+}
+@media screen and (min-width: 960px) {
+  header .logo {
+    background-position: left;
+    margin: 0;
+  }
 }
 header .menu {
   display: block;
@@ -45,6 +58,12 @@ header .menu__item:hover {
   header {
     display: flex;
     align-items: center;
+  }
+}
+@media screen and (min-width: 960px) {
+  header {
+    justify-content: space-between;
+    margin-bottom: 40px;
   }
 }
 
