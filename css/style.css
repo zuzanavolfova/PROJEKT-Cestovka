@@ -296,6 +296,11 @@ header .menu__item:hover {
   padding: 20px;
   margin: 20px 0;
 }
+@media screen and (min-width: 960px) {
+  .novinky__item {
+    margin: 0;
+  }
+}
 .novinky__date {
   margin: 0;
   color: #888888;
@@ -311,6 +316,12 @@ header .menu__item:hover {
   font-family: "Montserrat", sans-serif;
   line-height: 19px;
   margin: 0;
+}
+@media screen and (min-width: 960px) {
+  .novinky {
+    display: flex;
+    gap: 20px;
+  }
 }
 
 footer {
