@@ -19,28 +19,33 @@ h4 {
   margin-top: 40px;
 }
 
-.logo {
+header .logo {
   width: 235px;
   height: 30px;
   background-image: url(/images/logo.svg);
   background-repeat: no-repeat;
   margin: 30px auto;
 }
-
-.menu {
+header .menu {
   display: block;
   padding: 20px;
 }
-.menu__item {
+header .menu__item {
   text-decoration: none;
   color: #F03000;
   padding: 20px;
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
 }
-.menu__item:hover {
+header .menu__item:hover {
   background-color: #F03000;
   color: white;
+}
+@media screen and (min-width: 768px) {
+  header {
+    display: flex;
+    align-items: center;
+  }
 }
 
 .tour__item {
