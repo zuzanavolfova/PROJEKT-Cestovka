@@ -14,6 +14,12 @@ body {
     margin: 0 20px;
 }
 
+h4 {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: $secondary-font;
+}
+
 
 .logo {
     width: 235px;
@@ -62,12 +68,14 @@ body {
     }
     h1 {
         font-size: 28px;
+        font-weight: 600;
         font-family: $secondary-font;
         margin-bottom: 16px;
     }
 
     h2 {
         font-size: 20px;
+        font-weight: 600;
         font-family: $secondary-font;
         margin: 0;
     }
@@ -112,3 +120,19 @@ body {
         color: $color-primary;
     }
 }
+
+.last-minute {
+    &__first {
+        background-image: url(/images/lodicka.png);
+        background-repeat: no-repeat;
+    }
+    &__second {
+        background-image: url(/images/podkova.png);
+        background-repeat: no-repeat;
+    }
+    &__third {
+        background-image: url(/images/zatoka.png);
+        background-repeat: no-repeat;
+    }
+}
+

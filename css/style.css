@@ -11,6 +11,12 @@ body {
   margin: 0 20px;
 }
 
+h4 {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+
 .logo {
   width: 235px;
   height: 30px;
@@ -58,11 +64,13 @@ body {
 }
 .tour h1 {
   font-size: 28px;
+  font-weight: 600;
   font-family: "Montserrat", sans-serif;
   margin-bottom: 16px;
 }
 .tour h2 {
   font-size: 20px;
+  font-weight: 600;
   font-family: "Montserrat", sans-serif;
   margin: 0;
 }
@@ -98,4 +106,17 @@ body {
 .services h3 {
   font-size: 18px;
   color: #F03000;
+}
+
+.last-minute__first {
+  background-image: url(/images/lodicka.png);
+  background-repeat: no-repeat;
+}
+.last-minute__second {
+  background-image: url(/images/podkova.png);
+  background-repeat: no-repeat;
+}
+.last-minute__third {
+  background-image: url(/images/zatoka.png);
+  background-repeat: no-repeat;
 }/*# sourceMappingURL=style.css.map */
