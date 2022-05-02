@@ -4,4 +4,33 @@ html {
 
 *, :after, :before {
   box-sizing: inherit;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+
+.logo {
+  width: 235px;
+  height: 30px;
+  background-image: url(/images/logo.svg);
+  background-repeat: no-repeat;
+  margin: 30px auto;
+}
+
+.menu {
+  display: block;
+  padding: 20px;
+}
+.menu__item {
+  text-decoration: none;
+  color: #F03000;
+  padding: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}
+.menu__item:hover {
+  background-color: #F03000;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
