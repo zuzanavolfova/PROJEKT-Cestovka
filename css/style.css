@@ -11,6 +11,16 @@ body {
   margin: 0 20px;
 }
 
+h1 {
+  font-size: 28px;
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
 .logo {
   width: 235px;
   height: 30px;
@@ -44,43 +54,30 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
-
-.tour-big-image {
+.tour__big-image {
   height: 240px;
 }
-
+.tour__small-image {
+  height: 150px;
+}
 .tour__price {
   flex-grow: 0;
   flex-basis: auto;
   padding: 10px;
   background-color: #F03000;
 }
-
 .tour__text p {
   font-size: 16px;
 }
-
-h1 {
-  font-size: 28px;
-  font-family: "Montserrat", sans-serif;
-}
-
-h2 {
-  font-size: 20px;
-  font-family: "Montserrat", sans-serif;
-}
-
-.tour-first {
+.tour__first {
   background-image: url(/images/palmy.png);
   background-repeat: no-repeat;
 }
-
-.tour-second {
+.tour__second {
   background-image: url(/images/jezero2.png);
   background-repeat: no-repeat;
 }
-
-.tour-third {
+.tour__third {
   background-image: url(/images/nakole.png);
   background-repeat: no-repeat;
 }

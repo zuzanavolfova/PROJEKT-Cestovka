@@ -13,6 +13,15 @@ body {
     font-family: $primary-font;
     margin: 0 20px;
 }
+h1 {
+    font-size: 28px;
+    font-family: $secondary-font;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: $secondary-font;
+}
 
 .logo {
     width: 235px;
@@ -37,57 +46,51 @@ body {
         }
     }
 }
+.tour {
+    &__item {
+        color: white;
+        margin: 20px auto;
+        padding: 20px;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    &__big-image {
+        height: 240px;
+    }
+    &__small-image {
+        height: 150px;
+    }
+    &__price {
+        flex-grow: 0;
+        flex-basis: auto;
+        padding: 10px;
+        background-color: $color-primary;
+    }
 
-.tour__item {
-    color: white;
-    margin: 20px auto;
-    padding: 20px;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.tour-big-image {
-    height: 240px;
-}
-.tour__price {
-    flex-grow: 0;
-    flex-basis: auto;
-    padding: 10px;
-    background-color: $color-primary;
-}
+    &__text {
+        p {
+           font-size: 16px;
+        }
+    }
 
-.tour__text {
-    
-    p {
-        font-size: 16px;
+    &__first {
+        background-image: url(/images/palmy.png);
+        background-repeat: no-repeat;
+    }
+
+    &__second {
+        background-image: url(/images/jezero2.png);
+        background-repeat: no-repeat;
+    }
+
+    &__third {
+        background-image: url(/images/nakole.png);
+        background-repeat: no-repeat;
     }
 }
 
-h1 {
-    font-size: 28px;
-    font-family: $secondary-font;
-}
-
-h2 {
-    font-size: 20px;
-    font-family: $secondary-font;
-}
-
-.tour-first {
-    background-image: url(/images/palmy.png);
-    background-repeat: no-repeat;
-}
-
-.tour-second {
-    background-image: url(/images/jezero2.png);
-    background-repeat: no-repeat;
-}
-
-.tour-third {
-    background-image: url(/images/nakole.png);
-    background-repeat: no-repeat;
-}
 .services {
     &__item {
         background-color: $background-color;
