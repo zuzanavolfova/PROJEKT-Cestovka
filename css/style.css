@@ -83,4 +83,21 @@ h2 {
 .tour-third {
   background-image: url(/images/nakole.png);
   background-repeat: no-repeat;
+}
+
+.services__item {
+  background-color: #F0F0F0;
+  display: flex;
+  align-items: flex-start;
+  margin: 10px 0;
+}
+.services__icon {
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+  flex-basis: 20%;
+  margin: 20px;
+}
+.services h3 {
+  font-size: 18px;
+  color: #F03000;
 }/*# sourceMappingURL=style.css.map */
