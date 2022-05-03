@@ -358,4 +358,24 @@ footer {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+@media screen and (min-width: 960px) {
+  .otazky {
+    display: grid;
+    grid-column: 2fr 1fr;
+    gap: 20px;
+  }
+  .otazky__content {
+    grid-column: 1/span 1;
+  }
+  .otazky__last-minute {
+    grid-column: 2/span 1;
+    display: block;
+  }
+  .otazky .tour__big-image {
+    height: 180px;
+  }
+  .otazky .tour__item {
+    margin: 20px 0;
+  }
 }/*# sourceMappingURL=style.css.map */
