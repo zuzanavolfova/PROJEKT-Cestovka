@@ -350,4 +350,9 @@ footer {
 }
 .otazky__text {
   margin: 30px 0;
+}
+.otazky__image {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=style.css.map */
