@@ -384,4 +384,9 @@ footer {
   .otazky .tour__item {
     margin: 20px 0;
   }
+}
+
+.tour-site__hero {
+  display: flex;
+  justify-content: end;
 }/*# sourceMappingURL=style.css.map */

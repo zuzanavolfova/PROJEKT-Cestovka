@@ -334,3 +334,11 @@ footer {
        }
     };
 }
+
+.tour-site {
+    &__hero {
+        display: flex;
+        justify-content: end;
+    }
+}
+
