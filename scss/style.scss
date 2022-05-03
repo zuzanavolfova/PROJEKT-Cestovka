@@ -338,14 +338,25 @@ footer {
 }
 
 .tour-site {
+    @media screen and (min-width: 960px){
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    }
     &__hero {
         display: flex;
         justify-content: end;
         margin: 30px 0;
+        @media screen and (min-width: 760px){
+            grid-column: 1/span 1;
+        }
     };
+   
     &__description{
         @media screen and (min-width: 768px){
-            margin: 40px 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        margin: 40px 0;
         }
         .description__item {
             background-color: $background-description;
@@ -357,6 +368,9 @@ footer {
             }           
             @media screen and (min-width: 768px){
                 margin: 0;
+            }
+            @media screen and (min-width: 960px){
+                display: block;
             }
         };
         .description__title{
@@ -373,6 +387,9 @@ footer {
             p {
                 margin: 0;
             }
+            @media screen and (min-width: 960px){
+                display: block;
+            }
             .price__title {
             text-transform: uppercase;
             }
@@ -381,11 +398,7 @@ footer {
                 font-size: 28px;
             }
         }
-        @media screen and (min-width: 768px){
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 20px;
-        }
+      
 
         .description__item-first {
             @media screen and (min-width: 768px) {
@@ -409,14 +422,15 @@ footer {
                 }
             }
         }
-      
-    
     }
     .description__text {
             @media screen and (min-width: 768px){
                 p {
                     margin: 0;
                 }
+            }
+            @media screen and (min-width: 960px){
+                grid-column: 1/span 1;
             }
         }
     &__images{
@@ -425,6 +439,9 @@ footer {
         gap: 20px;
         .tour-site__image-item{
             min-width: 210px;
+        }
+        @media screen and (min-width: 960px){
+            grid-column: 1/span 1;
         }
     }   
 }
