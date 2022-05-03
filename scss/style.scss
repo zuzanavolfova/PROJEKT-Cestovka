@@ -11,6 +11,7 @@ $footer-color:#444444;
 
 body {
     font-family: $primary-font;
+    font-size: 16px;
     margin: 0 20px;
     @media screen and (min-width: 768px){
         margin: 40px 20px;
@@ -127,7 +128,6 @@ header {
     }
     &__text {
         p {
-           font-size: 16px;
            margin: 0;
         }
     }
@@ -289,4 +289,20 @@ footer {
     text-align: center;
     padding: 20px;
     margin: 40px 0;
+}
+
+.otazky {
+ 
+    &__main-title {
+        color: $color-primary;
+        font-size: 36px;
+        line-height: 44px;
+        border-top: 2px solid $color-primary;
+        margin-top: 40px;
+        margin-bottom: 0;
+        padding-top: 40px;
+    }
+    &__text {
+        margin: 30px 0;
+    }
 }
