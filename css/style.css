@@ -389,4 +389,36 @@ footer {
 .tour-site__hero {
   display: flex;
   justify-content: end;
+  margin: 30px 0;
+}
+.tour-site__description .description__item {
+  background-color: rgb(229, 229, 229);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.tour-site__description .description__item p {
+  margin: 0;
+  line-height: 22px;
+}
+.tour-site__description .description__title {
+  text-transform: uppercase;
+  color: #888888;
+  font-size: 14px;
+  line-height: 19px;
+}
+.tour-site__price {
+  color: white;
+  background-color: #F03000;
+  padding: 20px;
+  font-size: 14px;
+}
+.tour-site__price p {
+  margin: 0;
+}
+.tour-site__price .price__title {
+  text-transform: uppercase;
+}
+.tour-site__price .price__price {
+  font-weight: bold;
+  font-size: 28px;
 }/*# sourceMappingURL=style.css.map */

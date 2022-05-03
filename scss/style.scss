@@ -7,7 +7,9 @@ $primary-font: 'Open Sans', sans-serif;
 $secondary-font:'Montserrat', sans-serif;
 $background-color: #F0F0F0;
 $light-grey:#888888;
+$background-description:rgba(229, 229, 229, 1);
 $footer-color:#444444;
+
 
 body {
     font-family: $primary-font;
@@ -339,6 +341,39 @@ footer {
     &__hero {
         display: flex;
         justify-content: end;
+        margin: 30px 0;
+    };
+    &__description{
+        .description__item {
+            background-color: $background-description;
+            padding: 20px;
+            margin-bottom: 20px; 
+            p {
+                margin: 0;
+                line-height: 22px
+            }           
+        };
+        .description__title{
+            text-transform: uppercase;
+            color: $light-grey;
+            font-size: 14px;
+            line-height: 19px;
+        }
+    }
+    &__price {
+        color: white;
+        background-color: $color-primary;
+        padding: 20px;
+        font-size: 14px;
+        p {
+            margin: 0;
+        }
+        .price__title {
+            text-transform: uppercase;
+        }
+        .price__price {
+            font-weight: bold;
+            font-size: 28px;
+        }
     }
 }
-
