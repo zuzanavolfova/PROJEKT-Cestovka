@@ -343,6 +343,11 @@ footer {
   border-bottom: 2px solid #F03000;
   padding-bottom: 40px;
 }
+@media screen and (min-width: 960px) {
+  .line {
+    margin: 0;
+  }
+}
 
 .otazky__main-title {
   color: #F03000;
@@ -362,7 +367,7 @@ footer {
 @media screen and (min-width: 960px) {
   .otazky {
     display: grid;
-    grid-column: 2fr 1fr;
+    grid-template-columns: 2fr 1fr;
     gap: 20px;
   }
   .otazky__content {

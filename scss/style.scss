@@ -294,6 +294,9 @@ footer {
 .line {
     border-bottom: 2px solid $color-primary;
     padding-bottom: 40px;
+    @media screen and (min-width: 960px){
+        margin: 0;
+    }
 }
 .otazky {
     &__main-title {
@@ -312,7 +315,7 @@ footer {
     }
     @media screen and (min-width: 960px){
         display: grid;
-        grid-column: 2fr 1fr;
+        grid-template-columns: 2fr 1fr;
         gap: 20px;
         &__content {
             grid-column: 1 / span 1;
