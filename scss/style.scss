@@ -344,6 +344,9 @@ footer {
         margin: 30px 0;
     };
     &__description{
+        @media screen and (min-width: 768px){
+            margin: 40px 0;
+        }
         .description__item {
             background-color: $background-description;
             padding: 20px;
@@ -406,8 +409,16 @@ footer {
                 }
             }
         }
+      
+    
     }
-  
+    .description__text {
+            @media screen and (min-width: 768px){
+                p {
+                    margin: 0;
+                }
+            }
+        }
     &__images{
         display: flex;
         flex-wrap: 1;
