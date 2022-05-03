@@ -400,25 +400,67 @@ footer {
   margin: 0;
   line-height: 22px;
 }
+@media screen and (min-width: 768px) {
+  .tour-site__description .description__item {
+    margin: 0;
+  }
+}
 .tour-site__description .description__title {
   text-transform: uppercase;
   color: #888888;
   font-size: 14px;
   line-height: 19px;
 }
-.tour-site__price {
+.tour-site__description .tour-site__price {
   color: white;
   background-color: #F03000;
   padding: 20px;
   font-size: 14px;
 }
-.tour-site__price p {
+.tour-site__description .tour-site__price p {
   margin: 0;
 }
-.tour-site__price .price__title {
+.tour-site__description .tour-site__price .price__title {
   text-transform: uppercase;
 }
-.tour-site__price .price__price {
+.tour-site__description .tour-site__price .price__price {
   font-weight: bold;
   font-size: 28px;
+}
+@media screen and (min-width: 768px) {
+  .tour-site__description {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .tour-site__description .description__item-first {
+    grid-column: 1/span 1;
+  }
+}
+@media screen and (min-width: 768px) {
+  .tour-site__description .description__item-second {
+    grid-column: 2/span 1;
+  }
+}
+@media screen and (min-width: 768px) {
+  .tour-site__description .description__item-third {
+    grid-column: 1/span 1;
+    grid-row: 2/span 1;
+  }
+}
+@media screen and (min-width: 768px) {
+  .tour-site__description .description__item-third .description__item-fourth {
+    grid-column: 2/span 1;
+    grid-row: 2/span 1;
+  }
+}
+.tour-site__images {
+  display: flex;
+  flex-wrap: 1;
+  gap: 20px;
+}
+.tour-site__images .tour-site__image-item {
+  min-width: 210px;
 }/*# sourceMappingURL=style.css.map */
