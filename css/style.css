@@ -514,11 +514,24 @@ footer {
 }
 .tour-site__images {
   display: flex;
-  flex-wrap: 1;
+  flex-wrap: wrap;
   gap: 20px;
+  width: 100%;
+  margin-top: 30px;
 }
 .tour-site__images .tour-site__image-item {
-  min-width: 210px;
+  flex-basis: calc((100% - 20px) / 2);
+}
+@media screen and (min-width: 768px) {
+  .tour-site__images .tour-site__image-item {
+    flex-basis: calc((100% - 40px) / 3);
+    flex-grow: 1;
+  }
+}
+@media screen and (min-width: 768px) {
+  .tour-site__images {
+    margin-top: 40px;
+  }
 }
 @media screen and (min-width: 960px) {
   .tour-site__images {
